@@ -1,2 +1,0 @@
-# SwipeKingsLegal
-Swiping Game
