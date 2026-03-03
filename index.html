@@ -1,14 +1,154 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-    <script type="module" crossorigin src="assets/index-CmWxJ6qQ.js"></script>
-    <link rel="stylesheet" crossorigin href="assets/index-S616YsuQ.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwipeKings Legal Center</title>
+  <meta name="description" content="Official legal documents for SwipeKings. Privacy Policy and Terms of Service.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="container nav-content">
+      <a href="index.html" class="logo">
+        <div class="logo-box">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14" />
+          </svg>
+        </div>
+        <span>SwipeKings</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-item active">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <polyline points="9 22 9 12 15 12 15 22" />
+          </svg>
+          <span>Home</span>
+        </a>
+        <a href="privacy-policy.html" class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+          <span>Privacy Policy</span>
+        </a>
+        <a href="terms-of-service.html" class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="16" y1="13" x2="8" y2="13" />
+            <line x1="16" y1="17" x2="8" y2="17" />
+            <polyline points="10 9 9 9 8 9" />
+          </svg>
+          <span>Terms of Service</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="hero animate-fade-up">
+      <div class="badge">Official Documents</div>
+      <h1>SwipeKings Legal Center</h1>
+      <p class="lead">
+        Everything you need to know about how we manage your data and the rules for playing SwipeKings.
+        We believe in transparency and protecting our community.
+      </p>
+    </section>
+
+    <div class="card-grid">
+      <a href="privacy-policy.html" class="card animate-fade-right delay-100">
+        <div class="card-icon icon-blue">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+        </div>
+        <h2 class="card-title">Privacy Policy</h2>
+        <p class="card-text">
+          Learn about the information we collect, how we use it, and your rights regarding your personal data.
+        </p>
+        <div class="card-link">
+          Read Policy
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </div>
+      </a>
+
+      <a href="terms-of-service.html" class="card animate-fade-left delay-200">
+        <div class="card-icon icon-purple">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="16" y1="13" x2="8" y2="13" />
+            <line x1="16" y1="17" x2="8" y2="17" />
+            <polyline points="10 9 9 9 8 9" />
+          </svg>
+        </div>
+        <h2 class="card-title">Terms of Service</h2>
+        <p class="card-text">
+          The agreement between you and Boldreams regarding your use of the SwipeKings mobile game.
+        </p>
+        <div class="card-link">
+          View Terms
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </div>
+      </a>
+    </div>
+
+    <section class="contact-section animate-fade-up delay-400">
+      <div class="contact-content">
+        <h3 class="contact-title">Have questions?</h3>
+        <p class="contact-text">
+          If you have any concerns regarding our policies or terms, please reach out to our support team.
+        </p>
+        <a href="mailto:soueuroya@gmail.com" class="contact-button">
+          Contact Support
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            <polyline points="15 3 21 3 21 9" />
+            <line x1="10" y1="14" x2="21" y2="3" />
+          </svg>
+        </a>
+      </div>
+      <div class="contact-glow"></div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="logo">
+        <div class="logo-box" style="width: 1.5rem; height: 1.5rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14" />
+          </svg>
+        </div>
+        <span>SwipeKings</span>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:soueuroya@gmail.com">Support</a>
+        <span class="separator">|</span>
+        <p>© 2026 Boldreams. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
